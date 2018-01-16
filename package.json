@@ -1,0 +1,55 @@
+{
+  "name": "scavenger-scent-npm",
+  "version": "0.0.1",
+  "author": "Temando Pty Ltd",
+  "contributors": [
+    "Brendan Abbott <brendan.abbott@temando.com>",
+    "Evan Read <evan.read@temando.com>",
+    "Khoa Tran <khoa.tran@temando.com>",
+    "Jason Wijegooneratne <jason.wijegooneratne@temando.com>"
+  ],
+  "preferGlobal": true,
+  "description": "A NPM scent for Scavenger.",
+  "license": "MIT",
+  "keywords": [
+    "dx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/temando/scavenger-scent-npm.git"
+  },
+  "engines": {
+    "node": ">=6.1.0",
+    "npm": "^3.8.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.19",
+    "@types/jest": "^22.0.1",
+    "@types/node": "^9.3.0",
+    "@types/winston": "^2.3.7",
+    "changelog-verify": "^1.1.0",
+    "jest": "^22.1.1",
+    "sinon": "^4.1.5",
+    "ts-jest": "^22.0.1",
+    "tslint": "^5.9.1",
+    "tslint-config-temando": "^1.5.11",
+    "typescript": "^2.6.2",
+    "version-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "build": "rm -Rf dist && tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "preversion": "npm run build && npm run lint && npm run test",
+    "test": "jest",
+    "version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md"
+  },
+  "main": "src/index.js",
+  "files": [
+    "dist"
+  ]
+}
