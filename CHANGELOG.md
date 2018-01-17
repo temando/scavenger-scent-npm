@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased][]
 
+### Fixed
+
+- Default export is now a runner function.
+
 ## [0.1.0][] - 2018-01-16
 
 First cut of an NPM scent for [Scavenger](https://github.com/temando/scavenger-cli)'s `scout` command.

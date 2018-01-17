@@ -10,5 +10,4 @@ const runner = (args: string[], logger = winston): Promise<IProject[]> => {
   return npmScent.getCatalog(args[0], keywords);
 };
 
-// tslint:disable no-default-export
-export default runner;
+module.exports = runner;

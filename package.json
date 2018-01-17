@@ -48,7 +48,7 @@
     "test": "jest",
     "version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md"
   },
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ]
