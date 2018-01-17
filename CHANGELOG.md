@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased][]
 
+### Changed
+
+- The `name` properly will no longer include any package scopes.
+
 ## [0.1.1][] - 2018-01-17
 
 ### Fixed

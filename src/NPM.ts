@@ -100,9 +100,12 @@ export class NPM {
       'https://$2/',
     );
 
+    // Replace any package @scope with nothing.
+    const name = entry.name.replace(/^(@.*)[/]/, '');
+
     return {
       id: entry.name,
-      name: entry.name,
+      name,
       repositoryUrl,
       commitIsh: entry.gitHead || 'master',
     };

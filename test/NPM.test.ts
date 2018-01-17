@@ -47,7 +47,7 @@ describe('NPM Scent', () => {
     expect(catalog).toBeInstanceOf(Array);
     expect(catalog).toHaveLength(1);
     expect(catalog[0].id).toEqual('@temando/api');
-    expect(catalog[0].name).toEqual('@temando/api');
+    expect(catalog[0].name).toEqual('api');
     expect(catalog[0].repositoryUrl).toEqual('https://src.temando.io/developer-experience/temando-node.git');
     expect(catalog[0].commitIsh).toEqual('885e79b8b5264e485375e9d2fbb45b07fbb7bd3d');
   });
