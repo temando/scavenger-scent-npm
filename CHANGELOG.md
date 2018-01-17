@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased][]
 
+## [0.2.0][] - 2018-01-17
+
 ### Changed
 
 - The `name` properly will no longer include any package scopes.
@@ -20,6 +22,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 First cut of an NPM scent for [Scavenger](https://github.com/temando/scavenger-cli)'s `scout` command.
 
-[Unreleased]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/temando/scavenger-scent-npm/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/temando/scavenger-scent-npm/tree/v0.1.0
