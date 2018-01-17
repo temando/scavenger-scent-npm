@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased][]
 
+## [0.1.1][] - 2018-01-17
+
 ### Fixed
 
 - Default export is now a runner function.
@@ -14,5 +16,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 First cut of an NPM scent for [Scavenger](https://github.com/temando/scavenger-cli)'s `scout` command.
 
-[Unreleased]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/temando/scavenger-scent-npm/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/temando/scavenger-scent-npm/tree/v0.1.0
